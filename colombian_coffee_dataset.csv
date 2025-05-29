@@ -1,0 +1,201 @@
+id,name,year,coffee_variety,ranking,price,kg
+b40da015-688e-42fe-b6b7-78bbad3e26b3,Café La Esperanza,2023,Castillo,82,16.22,160.9
+83f35fe9-08aa-4e1e-aa17-1f65addb9a71,Café Montaña Viva,2024,Caturra,70,20.19,79.9
+07c7c021-a968-46bb-a1c7-20e21e5cbc09,Doña Marta,2024,Geisha,79,15.71,346.5
+73637782-d47c-42d8-9022-b0ad387f8e63,Finca San Luis,2018,Caturra,76,13.27,405.0
+6bd0e121-39e3-4b19-8966-a2e4849c6aef,Café Montaña Viva,2022,Maragogipe,98,19.08,196.2
+7b5c34ae-deb9-4c7c-96a2-267d53840c37,Café Montaña Viva,2018,Typica,88,37.63,52.9
+5b02fb68-9a3e-4715-b0ba-b8ae22c5d69a,Café Montaña Viva,2022,Typica,81,35.64,301.2
+e2f2bdc8-1abe-4177-b043-880c90372d58,Finca El Paraíso,2022,Maragogipe,90,30.4,384.8
+c8682813-ed8e-4454-8f2c-74f20ac19f70,Café Las Nubes,2023,Castillo,83,26.38,339.3
+0d0aedc9-9e20-4512-820d-23c374d1cb81,Don Pedro,2021,Colombia,97,12.25,83.5
+466f5726-2b8c-48ad-8d17-73820b3c1d69,Café Las Nubes,2021,Geisha,83,33.67,64.9
+2b14f6bf-537f-424b-b2da-a74b0f4196f8,Campesino Carlos,2024,Castillo,89,17.93,490.8
+afe14727-ca94-4221-b4e7-ef48d6428e03,Don Pedro,2021,Geisha,70,32.97,275.2
+0024238c-936c-4023-a7ef-b0d489f7eb18,Campesino Carlos,2022,Castillo,97,14.4,371.1
+8081a181-b0ce-4b58-b0b3-e82c7941c3e7,Doña Marta,2018,Geisha,87,23.41,154.6
+eb80d028-3a5e-45ee-8ff1-5eb31144d5e6,Café Altura,2020,Bourbon,91,13.81,474.3
+51bb6254-b70f-43e4-b892-d51e262be410,Café La Esperanza,2023,Geisha,93,34.8,68.1
+936a0175-509b-449d-8979-354184cacb6d,Café Altura,2019,Castillo,75,37.46,269.3
+61a0bf19-f04d-4369-9c0b-44439211e7ea,Café Altura,2018,Castillo,87,16.59,137.5
+a6af0f8b-b053-4ab0-9e84-40f6378c0a70,Finca San Luis,2021,Geisha,71,33.59,135.1
+cb50333f-7bc2-4bc2-bb74-dca23873ed10,Café Montaña Viva,2023,Typica,99,14.73,151.1
+3cefc6b6-4917-4b05-bbfd-3c60dcb7b3f6,Café Montaña Viva,2021,Geisha,89,19.43,378.1
+1170fa6b-9ccc-4622-98f1-7855a4ddc189,Doña Marta,2018,Colombia,82,19.16,280.4
+c4083af3-0cdb-4ef0-bb5a-4d618f497097,Doña Marta,2018,Geisha,71,34.4,193.8
+bc6bf177-ad63-48a5-bd75-58483ab3972a,Doña Marta,2022,Caturra,86,22.2,129.3
+3b0a0fcb-5b2b-4f82-8f3f-9462c22e4172,Café Montaña Viva,2018,Castillo,89,18.96,247.4
+1162b2a0-03fa-4ac4-9f84-139e35094f79,Campesino Carlos,2021,Geisha,73,12.87,498.5
+7214baa1-c65e-4e01-af85-fe4168f7c016,Finca San Luis,2019,Castillo,93,20.49,59.2
+22d7f7d9-9f9d-47bf-b24b-2aef9bca7f68,Café Altura,2021,Caturra,94,38.62,405.9
+948535f8-659c-458f-937d-4b7cc5e4ef7f,Café Montaña Viva,2020,Colombia,98,13.58,71.6
+2b0d5acd-532e-4fcf-9cf9-1c9ee671a0ad,Doña Marta,2018,Geisha,79,34.84,491.7
+0af01da9-a0cf-4397-af98-09334fc6ba14,Café La Esperanza,2021,Typica,88,25.09,174.5
+8911eec7-176e-42a1-b6fd-8f8839795be5,Doña Marta,2018,Typica,74,12.19,396.6
+26e4076e-2a7a-4a3b-baf4-1f686090bd61,Café La Esperanza,2024,Geisha,82,17.26,331.5
+8918a28c-8116-41ec-b191-22e4bb8a125c,Café Las Nubes,2021,Bourbon,85,21.58,52.8
+aa3e9799-1209-4db9-9434-a57a03416185,Doña Marta,2024,Caturra,85,21.53,363.5
+e24d28fd-4124-47cb-8dcd-9958156d30cc,Campesino Carlos,2023,Typica,77,28.19,265.0
+7981aeb4-d4de-4bef-99b1-1c2b74dec4f8,Finca El Paraíso,2021,Caturra,98,20.75,478.3
+7e31a6fc-c462-42c8-aa05-8d3ff7458d2a,Café La Esperanza,2024,Colombia,95,22.88,118.9
+4ce8a401-0486-4cce-947d-07a9377a942f,Finca El Paraíso,2024,Bourbon,75,23.96,253.8
+60b4b18c-c332-4372-a191-c6a0d5ce83ef,Finca El Paraíso,2022,Castillo,71,33.17,446.3
+fb02cb01-0d99-4156-8044-164d46a25275,Café La Esperanza,2024,Geisha,95,35.4,237.2
+31bce3a6-d9ff-434c-bc61-f69cb182a93a,Finca San Luis,2024,Colombia,94,10.2,78.2
+5b09a262-83ac-45d6-ae2f-67978fe19416,Doña Marta,2023,Typica,90,31.47,401.4
+14800206-a94b-42e3-a8e1-b2c2109ac645,Campesino Carlos,2023,Colombia,83,38.25,321.5
+13cf2145-a014-4400-9bd6-108edaa4eaf3,Finca San Luis,2020,Caturra,83,35.14,424.5
+cbfa17e1-5dec-4360-bc13-f8fff040182b,Finca El Paraíso,2021,Colombia,86,36.06,170.5
+648061a9-f07f-4ee2-b39f-3817ccdb02bd,Café La Esperanza,2018,Colombia,80,36.76,243.1
+cc6f5ad0-02fd-42ce-a317-206fcc04668f,Finca El Paraíso,2020,Typica,88,38.76,341.3
+fcc5f983-e2ed-443e-93ed-b908ae33bb65,Café La Esperanza,2018,Caturra,93,31.95,272.4
+aca07627-f5a1-4ab4-91cd-16ed9449f62a,Finca San Luis,2023,Caturra,88,12.01,101.7
+4f876d7e-056f-4e50-860b-4f09b61d0966,Doña Marta,2018,Maragogipe,86,28.47,340.0
+af09b106-7bda-4ae3-86d7-9e4af96e6b2f,Doña Rosa,2018,Geisha,73,33.03,380.5
+0cd1ef0c-bb19-466f-9e77-658ec071ded6,Finca San Luis,2022,Bourbon,90,24.94,118.9
+1dc665c4-ffe2-41a5-8d1d-58723561fa64,Don Pedro,2024,Maragogipe,81,10.92,283.6
+521a2ba2-5ff3-4382-bc61-8a3d30bf5871,Finca El Paraíso,2024,Maragogipe,82,18.4,485.4
+7ee1f415-19ac-4dd6-8688-acb1d109fc4c,Café La Esperanza,2018,Geisha,71,39.17,246.0
+340ebddf-004d-46e5-88a5-dc693dbae9b2,Don Pedro,2019,Bourbon,86,30.8,344.1
+2077a8f6-ba09-4673-883d-5783c186f965,Finca El Paraíso,2018,Bourbon,86,18.34,141.0
+ca948de4-8859-4a7b-9395-72e8aca75a61,Doña Rosa,2023,Castillo,89,34.56,70.8
+50e3a752-ef08-4de9-b69d-5c61d1f1f258,Café Las Nubes,2021,Castillo,75,18.04,230.5
+d5c9cf31-53dc-4623-9de9-5c5d4458ac7d,Café Las Nubes,2019,Caturra,76,36.03,63.6
+6afc613d-baa6-4005-9f38-bee01d921183,Doña Rosa,2018,Colombia,89,26.8,498.0
+77ad449c-888d-43b8-bdd5-6bacb4123de8,Don Pedro,2020,Maragogipe,84,10.15,238.2
+d5800009-586d-45de-b48a-ce22f37710e9,Café Las Nubes,2019,Typica,76,20.83,447.2
+ee67cae7-cbd3-45c9-965c-b1c9db9707ad,Café La Esperanza,2020,Colombia,90,35.87,75.6
+38980634-0dfb-466f-a329-6bbdd6386cfc,Café La Esperanza,2021,Bourbon,95,26.67,314.0
+269a36e0-8bc4-4818-bf5b-f860b9461418,Café Montaña Viva,2018,Castillo,81,28.18,406.6
+c8b67ead-4184-4c66-ac1e-2827aed5e3be,Doña Rosa,2022,Typica,74,24.7,73.7
+b7689bef-1f00-4751-a1c1-fb3a8ded2845,Doña Rosa,2021,Typica,97,24.09,398.2
+013d82d7-dcd9-4abe-9136-9c3a3c4f6021,Café Altura,2019,Caturra,86,14.05,196.9
+015b8489-8a50-4160-b598-2f5349b01999,Café Altura,2018,Colombia,90,27.76,218.7
+ace0cb2f-69c3-406e-90c3-fba7f3f4adbe,Doña Rosa,2021,Bourbon,83,38.02,92.7
+1629779c-4c88-4fab-a394-c3a8c8c33ee6,Café Altura,2021,Castillo,97,33.73,424.7
+2bb1f341-f10d-412e-a80e-f7789b31d72b,Doña Marta,2024,Caturra,74,34.61,445.3
+7eeda676-1e5e-4224-bd6b-04db1bc1781e,Café Montaña Viva,2024,Maragogipe,97,39.35,458.7
+27a48510-d056-455c-a0e9-6821c8c841d3,Finca El Paraíso,2022,Colombia,94,35.88,240.0
+cf86c4a0-876f-40b9-8f45-c5d392cf1c1b,Doña Rosa,2019,Typica,83,20.82,155.0
+fe440b9a-902d-4ff6-81c3-0b8856001842,Finca El Paraíso,2023,Castillo,80,24.1,257.4
+94cbd7fc-cd5b-4baa-b778-cf5072cedecd,Finca San Luis,2020,Caturra,83,17.21,254.6
+c428fefd-5b3c-4dcb-9aac-88d265e05db1,Finca El Paraíso,2022,Bourbon,85,22.79,128.0
+b1441edc-b4eb-4943-a942-7efb67f23f6a,Café La Esperanza,2022,Geisha,72,32.43,485.8
+a07582c1-17e8-4ad8-8f8d-926cab3bf58c,Café Altura,2022,Geisha,90,15.2,63.3
+36b8aa88-42bd-4c9e-85a2-c98cd94cd661,Finca El Paraíso,2021,Colombia,77,37.9,120.7
+84ef1e24-eacf-482d-9b08-b81d7e771583,Doña Marta,2024,Typica,89,13.59,239.8
+5a05985d-9599-4e17-858f-5cbeed93a209,Doña Marta,2023,Caturra,78,29.83,82.5
+a33e7dc2-d014-4772-9d46-e7ad6fb27e92,Café Altura,2018,Maragogipe,78,30.45,156.9
+385e2336-2066-4223-9ac9-d9c51bd8fd8a,Finca San Luis,2020,Castillo,84,14.45,129.2
+9df4dec6-b1f9-4928-ae8a-92b5d6f52cd2,Campesino Carlos,2019,Geisha,78,16.26,210.4
+e1e8da16-84ca-4aac-b29f-1f64925a9dbb,Campesino Carlos,2020,Geisha,71,38.37,138.7
+32c81426-9011-4a93-8441-d9cc24d60d58,Café La Esperanza,2021,Bourbon,85,11.12,444.9
+4eb9c2cb-1d29-469b-bdf8-2db8d39e3360,Campesino Carlos,2019,Maragogipe,98,30.96,304.0
+4d031097-3fbb-4f4c-8eb3-b87ed58c6c3d,Café La Esperanza,2019,Typica,74,27.51,140.3
+1001d553-2912-4b90-a028-fd50aea83d5c,Campesino Carlos,2020,Typica,82,38.05,222.3
+aaca9839-e6ed-43bd-b3f3-1f38e966a1a9,Café Montaña Viva,2023,Bourbon,98,19.56,57.8
+5853bc09-71f7-4198-bb5d-74f6da26a638,Campesino Carlos,2019,Typica,89,31.59,181.9
+da551d26-fda7-476e-a7c5-c6e3d6a208c5,Don Pedro,2024,Bourbon,89,37.49,377.0
+96e7e6b6-8e27-45f0-98f1-ddc970b13723,Café La Esperanza,2018,Maragogipe,94,16.81,117.5
+2a3ced38-29d5-408f-947a-ea99b66eb18f,Doña Rosa,2019,Geisha,90,11.12,477.2
+f3f6db16-35e4-49bc-9bd8-1182ad9ec8c1,Café Las Nubes,2018,Castillo,98,14.86,478.4
+7fd0a987-2e8a-435b-938d-183f31579c2b,Don Pedro,2018,Geisha,73,31.29,209.6
+896ebb6a-4409-4270-ba1a-634a0676a2a2,Finca San Luis,2024,Typica,99,27.7,476.2
+2d0f5db7-7b72-41b6-86d6-20ea849ba541,Café La Esperanza,2020,Caturra,79,30.51,358.1
+7297cc88-e00d-408d-b6af-83ed309057e0,Café Altura,2024,Bourbon,77,33.58,119.8
+cd80bee2-6371-4465-8af5-777572025dcd,Don Pedro,2018,Bourbon,71,15.15,316.3
+9dc6c275-edfe-46ca-83bc-ca52a53ca762,Finca El Paraíso,2024,Bourbon,94,34.8,371.2
+7189bb21-5575-4728-9fba-07996521a003,Café La Esperanza,2023,Typica,99,21.56,364.8
+7c438133-ed35-4123-afef-d9646bea9c1a,Finca El Paraíso,2020,Castillo,70,24.52,480.5
+e969fbd1-3252-4725-894c-b19b55ac3bee,Campesino Carlos,2020,Bourbon,83,31.23,52.7
+1e6e1ca4-e9eb-4af5-9cac-c09bc956649d,Café Montaña Viva,2022,Maragogipe,93,37.48,154.8
+55dfec22-52ab-4d13-b671-05886afeecbc,Don Pedro,2023,Colombia,90,36.41,292.0
+a8c94d03-3ea6-43ac-a602-a2f104deb112,Café Las Nubes,2021,Geisha,93,13.32,115.2
+c79c1a34-7560-4bbd-b4ba-f06210423cd9,Finca San Luis,2024,Typica,73,33.21,127.1
+b07aec1b-7ff7-4580-89e6-8a47a97b4be5,Café Montaña Viva,2023,Typica,83,38.51,342.8
+5a3f525b-b11b-49ee-b998-b4c856d6635e,Café La Esperanza,2020,Typica,70,38.52,166.2
+162f4848-f604-40fe-9e73-17e8727a5b5e,Café La Esperanza,2019,Colombia,71,20.03,484.6
+bfb36a8c-b6cd-4042-98d4-6a93c0bf6a11,Café La Esperanza,2022,Typica,74,12.48,431.4
+aeb5f05e-f598-426e-9a56-d2f2705743ec,Doña Marta,2024,Maragogipe,89,24.24,277.7
+aee1b67a-9d31-47b8-9637-49f0ee1232ca,Doña Marta,2019,Typica,98,22.44,184.1
+0f988013-2de6-4cd3-8e5d-a2eefc98b166,Finca El Paraíso,2024,Colombia,70,11.13,369.5
+74e389f8-521c-490b-91e6-c6f85c3243dc,Campesino Carlos,2020,Bourbon,98,24.44,320.9
+5135fca3-6987-41ea-90cc-93390fa382fe,Café Las Nubes,2024,Maragogipe,71,19.35,408.6
+f7c0f0a3-c129-4be6-af97-2ab5a342032b,Café Montaña Viva,2022,Typica,80,24.55,264.1
+38899fdd-bf98-4bc9-9092-d5d74ed71c0b,Doña Marta,2024,Colombia,85,12.44,263.4
+dba0680f-5094-4cd0-8e01-981409511404,Doña Marta,2020,Typica,72,12.46,233.0
+b5b2724d-bba1-467c-bbfb-1b1041704d23,Finca El Paraíso,2018,Colombia,76,12.54,222.5
+8b427e68-bfad-4fec-a150-95ab75faf745,Café La Esperanza,2023,Typica,82,17.25,396.6
+522a6ad9-6b44-4694-a642-aab9b11a9e90,Campesino Carlos,2023,Maragogipe,72,39.65,445.8
+4e84df78-a483-4029-8ad3-8656dbf4ecf0,Café Las Nubes,2021,Geisha,76,20.91,239.9
+c286cdd5-7b50-45d7-a4b5-2d2bfe783be2,Doña Marta,2019,Typica,93,38.06,218.6
+b8d3dd1b-1dcc-4de8-9050-dc8aefb4e105,Campesino Carlos,2023,Geisha,70,38.26,103.2
+eee2cb7f-5964-4835-b700-94c780c8e43c,Café Las Nubes,2019,Caturra,80,25.92,110.7
+165c366b-abc6-4f11-909b-94c0e64ea760,Finca El Paraíso,2023,Maragogipe,85,12.75,445.4
+c766d68b-90b3-4b63-9400-17f68d58f05d,Café Altura,2018,Bourbon,85,12.86,228.2
+4c79225d-0d7e-4c0d-b5e4-d3ce57672c0c,Doña Marta,2020,Bourbon,77,29.52,344.2
+7db5f80b-07e5-4b31-9d36-ef64de36c446,Finca El Paraíso,2019,Colombia,99,17.14,323.9
+176aab4c-bbc1-4b51-9945-bc5f0128ad13,Don Pedro,2024,Geisha,71,13.68,261.2
+90b1f828-2f5c-425e-bd9c-4ba7ca254922,Café Las Nubes,2020,Bourbon,91,12.18,313.0
+b2d326b5-f4c2-4286-8331-17ea88595187,Doña Rosa,2022,Colombia,90,38.09,72.2
+533b18f2-16cc-4277-b1f0-bf1abe082d9b,Finca San Luis,2022,Caturra,88,19.6,151.5
+0aaeee2e-14e7-4cab-8250-630652d2a7a6,Campesino Carlos,2020,Maragogipe,71,24.58,416.9
+c056a41e-54bd-4b7c-961e-bf4d38fc3c47,Campesino Carlos,2018,Colombia,92,32.46,441.7
+67d1f46e-b29a-4dd9-a408-a6ea76180747,Café Altura,2018,Caturra,90,10.7,226.5
+1c4ad3f1-a03f-4ac9-a3f2-3e0da888899e,Café Montaña Viva,2019,Castillo,93,15.9,105.2
+cfab2c00-e0d4-4302-9374-a7098852fda0,Café Altura,2024,Typica,88,10.19,379.6
+616fbd2e-197b-43ae-a6a2-0857517f412f,Finca El Paraíso,2018,Typica,85,21.59,149.0
+985bfae5-f939-4980-b4d0-9816cc1a3e9b,Campesino Carlos,2020,Maragogipe,91,30.07,228.4
+faeff0a1-adfd-4c09-aadc-ad39124b88d6,Café Las Nubes,2020,Colombia,83,24.87,298.2
+e7957d8a-a363-40d0-a864-b308639fd440,Café Altura,2024,Geisha,73,36.17,54.9
+86596712-4e31-4a90-ab26-bf877fc9e6b3,Café Altura,2021,Castillo,79,38.1,131.7
+01759165-3179-434a-82b0-940981fbc10d,Café Altura,2021,Caturra,95,15.16,260.1
+a09a3ada-82fd-4b34-825f-280e9c979dd7,Café Montaña Viva,2019,Geisha,99,12.64,495.8
+1e2f9275-da2e-46d1-b96a-0ddbe9900de6,Finca El Paraíso,2018,Bourbon,90,24.71,86.3
+a88fbdf7-8e7d-4c49-b698-92e3deb0aac9,Campesino Carlos,2020,Bourbon,89,13.6,88.9
+0571f472-506d-44f2-abbc-04cc9759f6fe,Café Montaña Viva,2019,Castillo,78,20.69,364.6
+2bfe8df5-bbce-4247-934b-131de2731a9e,Doña Rosa,2019,Caturra,80,20.21,166.3
+d01d8cc5-9b6d-467c-8222-8dba7bad6384,Finca El Paraíso,2020,Colombia,81,14.93,86.5
+9bfd61b8-f701-4fdf-a89d-2b196d8e4770,Café Las Nubes,2018,Caturra,81,39.9,328.9
+e0b72e46-b16d-4a61-99b6-c26882289eac,Café Montaña Viva,2023,Bourbon,99,26.6,426.9
+c5bb20ad-6cb8-40aa-944d-b3d3e8fb4018,Finca El Paraíso,2018,Bourbon,87,29.31,234.0
+2412145c-4d19-4107-a500-ab955fd584e5,Finca San Luis,2018,Caturra,71,16.03,418.5
+ad5f36f2-6ac8-494a-b935-4d517ace4087,Café Montaña Viva,2019,Typica,88,34.01,374.1
+025a7461-448c-4135-bad2-1c3a85301d4b,Doña Rosa,2018,Maragogipe,76,37.49,96.5
+98a44a93-7445-4908-b88f-5ee39377aee9,Café Montaña Viva,2021,Caturra,82,15.13,380.4
+55a9f960-7171-4a55-a900-0796a2d737e2,Don Pedro,2023,Maragogipe,97,33.97,418.0
+3029cc9f-e8ea-4c48-acad-5ab48544c2e6,Doña Marta,2018,Maragogipe,98,10.35,449.3
+62eb3331-ab84-452d-96d2-d98ae25c782e,Café Montaña Viva,2024,Geisha,80,11.25,401.7
+b8bb71c4-b226-4a16-b3f9-c27332ddbcff,Doña Marta,2019,Caturra,96,17.52,207.5
+c756f23e-f6d9-4eac-8e73-4853f37c939f,Café Las Nubes,2023,Castillo,80,16.37,98.8
+c7900e42-ae1e-4bb0-a3c1-afdd58c76399,Café Altura,2020,Typica,99,20.03,386.2
+1c6a8bba-12ca-40af-9779-d01a7ccf279e,Doña Rosa,2021,Colombia,94,38.22,182.2
+da440775-f875-43a4-b48d-4d74580942a7,Café Montaña Viva,2020,Typica,86,26.27,340.8
+fd139475-b640-4375-8886-bbe02e03d100,Campesino Carlos,2020,Castillo,99,12.01,288.8
+43e50bf9-8e27-435d-8e3f-a0ca774a304f,Doña Rosa,2018,Bourbon,92,15.58,215.0
+736b57c5-1222-4391-87b5-bbd79e372cf7,Café Altura,2022,Colombia,78,11.06,397.9
+760b1577-6d95-4545-b88f-5eb67aebe1d8,Café Altura,2021,Colombia,84,11.8,92.7
+29417181-0766-4951-b434-c717dcc67d76,Finca San Luis,2019,Bourbon,78,24.41,88.4
+6e10a766-176c-4b3c-904e-908cfaa9913a,Campesino Carlos,2021,Geisha,97,37.42,69.0
+6dfbb4c4-b0a1-43f2-9b0a-02cb528bd587,Café Altura,2019,Maragogipe,91,29.48,133.5
+f6d9414f-4004-4d2a-a025-74ede264cb64,Don Pedro,2018,Geisha,79,33.3,195.9
+2d706f71-a23d-4b16-95b0-26c4fdaa5761,Doña Marta,2020,Geisha,92,33.26,342.7
+43e523f9-ab0e-4746-a9a7-1bda3af2d8cc,Campesino Carlos,2024,Bourbon,72,13.97,136.2
+6aa31e32-e2f7-4e4e-8dd0-3207512a4313,Campesino Carlos,2020,Bourbon,82,12.24,430.6
+08b2d6b0-da89-4b43-9e8e-0377979a3c73,Finca El Paraíso,2019,Caturra,97,20.66,240.4
+141173ca-00c9-4d85-a198-1a9a8343de26,Doña Rosa,2021,Geisha,74,11.63,383.5
+24bcfcf3-3ffd-4b4c-ace7-8e7c6042f4fc,Café Las Nubes,2018,Castillo,96,24.78,102.8
+75ca8f14-6713-44b5-bc0a-bb130e5ed8dd,Café Montaña Viva,2020,Caturra,87,24.65,488.0
+02c60ded-d91f-4bf9-80f9-568edd9c0615,Café Altura,2018,Maragogipe,95,35.63,311.4
+b0473b50-41bf-4a43-bde7-a606b5130595,Doña Marta,2022,Caturra,80,18.6,415.0
+bdf9207d-2812-4b83-baee-204d465bb977,Don Pedro,2019,Caturra,84,21.68,432.3
+eb3636ac-85d6-4bea-9893-d26eb483ed75,Finca El Paraíso,2019,Bourbon,84,38.67,177.6
+7674c952-fb08-4ef0-87fa-ac4b9376ce5b,Finca El Paraíso,2024,Castillo,76,14.29,442.0
+fde94b4c-b710-46e2-ac7e-607f1ba58dc0,Café Las Nubes,2022,Caturra,78,19.89,172.5
+88f919eb-8179-42e0-b94c-a7dd697a6acf,Doña Marta,2022,Bourbon,87,22.88,256.4
+e3970e16-9b3d-4332-87dc-a54168a5206a,Finca San Luis,2021,Colombia,75,25.28,397.0
+ea474dfc-7a46-43ef-a3c9-aa5df921361d,Campesino Carlos,2022,Castillo,81,28.26,91.0
+fc9173d1-aac4-4ea9-a9fe-71b21cf2321c,Finca El Paraíso,2023,Colombia,81,23.19,185.0
+0ddaf2c0-37a9-4ea3-b783-3f13ea42929c,Café La Esperanza,2019,Colombia,80,39.77,181.2
+69b9dbca-1055-416f-9df3-f51e2bafa7bc,Café Montaña Viva,2019,Bourbon,91,32.06,218.3
+b802cb7d-305c-466c-93c9-50c8237d9322,Café La Esperanza,2019,Caturra,98,23.26,390.0
