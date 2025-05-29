@@ -38,7 +38,7 @@ except FileNotFoundError:
 # Imagen recolectora de café
 try:
     collector_img = Image.open("recolectora_sonriendo.png")
-    collector_photo = ImageTk.PhotoImage(collector_img.resize((150, 150)))
+    collector_photo = ImageTk.PhotoImage(collector_img.resize((150, 200)))
     collector_label = tk.Label(root, image=collector_photo, bg='white')
     collector_label.place(x=620, y=10)
 except FileNotFoundError:
@@ -49,7 +49,7 @@ chat_frame = tk.Frame(root, bg='white', bd=2)
 chat_frame.place(x=20, y=20, width=580, height=460)
 chat_log = tk.Text(chat_frame, wrap='word', bg='white', fg='black')
 chat_log.pack(expand=True, fill='both')
-chat_log.insert(tk.END, "Recolectora: ¡Hola soy Aracelly! Pregúntame sobre los cafés disponibles.\n")
+chat_log.insert(tk.END, "Recolectora: ¡Hola soy Aracelly! Pregúntame sobre los cafés que tenemos disponibles.\n")
 
 # Entrada de texto
 user_input = tk.Entry(root, width=80)
@@ -68,7 +68,7 @@ def respond():
         response = f"El café de variedad {sample['coffee_variety']} tiene un precio de ${sample['price']} USD por libra."
     elif "productor" in question or "campesino" in question:
         name = df.sample(1).iloc[0]['name']
-        response = f"Uno de nuestros campesinos es {name}, quien cultiva con mucha dedicación."
+        response = f"Uno de nuestros campesinos es {name}, quien cultiva con mucha dedicación y procesos amigables con el medio ambiente."
     else:
         response = "Puedes preguntarme por variedades, precios o productores."
 
