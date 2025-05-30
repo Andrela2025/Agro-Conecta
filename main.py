@@ -13,7 +13,7 @@ except ModuleNotFoundError as e:
     sys.exit(1)
 
 # Verifica que el archivo exista
-csv_file = "colombian_coffee_dataset.csv"
+csv_file = "Dataset/colombian_coffee_dataset.csv"
 if not os.path.exists(csv_file):
     print(f"No se encuentra el archivo '{csv_file}'. Asegúrate de que esté en el mismo directorio.")
     sys.exit(1)
@@ -49,7 +49,7 @@ chat_frame = tk.Frame(root, bg='white', bd=2)
 chat_frame.place(x=20, y=20, width=580, height=460)
 chat_log = tk.Text(chat_frame, wrap='word', bg='white', fg='black')
 chat_log.pack(expand=True, fill='both')
-chat_log.insert(tk.END, "Recolectora: ¡Hola soy Aracelly! Pregúntame sobre los cafés que tenemos disponibles.\n")
+chat_log.insert(tk.END, "Recolectora: ¡Hola soy Aracelly! Pregúntame sobre los cafés que tenemos disponibles.")
 
 # Entrada de texto
 user_input = tk.Entry(root, width=80)
@@ -61,14 +61,27 @@ def respond():
     chat_log.insert(tk.END, f"\nTú: {question}\n")
 
     if "variedad" in question or "tipo" in question:
-        variety = df.sample(1).iloc[0]['coffee_variety']
-        response = f"Tenemos variedad del tipo: {variety}."
+        variedades = df['coffee_variety'].unique()
+        lista = ', '.join(sorted(variedades))
+        response = f"Trabajamos con las siguientes variedades de café: {lista}."
+
     elif "precio" in question or "cuánto vale" in question:
-        sample = df.sample(1).iloc[0]
-        response = f"El café de variedad {sample['coffee_variety']} tiene un precio de ${sample['price']} USD por libra."
+        encontrada = False
+        for variedad in df['coffee_variety'].unique():
+            if variedad.lower() in question:
+                encontrada = True
+                precios = df[df['coffee_variety'].str.lower() == variedad.lower()]['price']
+                precio_min = round(precios.min(), 2)
+                precio_max = round(precios.max(), 2)
+                response = f"El café de variedad {variedad} tiene un precio entre ${precio_min} y ${precio_max} USD por libra."
+                break
+        if not encontrada:
+            response = "Por favor especifica una variedad de café para darte el precio correspondiente."
+
     elif "productor" in question or "campesino" in question:
         name = df.sample(1).iloc[0]['name']
-        response = f"Uno de nuestros campesinos es {name}, quien cultiva con mucha dedicación y procesos amigables con el medio ambiente."
+        response = f"Uno de nuestros campesinos es {name}, quien cultiva con dedicación y procesos sostenibles."
+
     else:
         response = "Puedes preguntarme por variedades, precios o productores."
 
