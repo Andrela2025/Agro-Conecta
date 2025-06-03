@@ -7,7 +7,7 @@ from tkinter import ttk, messagebox, simpledialog
 from PIL import Image, ImageTk
 
 # Cargar datos
-csv_file = "Dataset/colombian_coffee_dataset_actualizado.csv"
+csv_file = "Dataset/colombian_coffee_dataset.csv"
 if not os.path.exists(csv_file):
     print(f"No se encuentra el archivo '{csv_file}'.")
     sys.exit(1)
@@ -17,7 +17,7 @@ df = pd.read_csv(csv_file)
 # Ventana principal
 root = tk.Tk()
 root.withdraw()
-user_name = simpledialog.askstring("Bienvenido", "¿Cómo te llamas?")
+user_name = simpledialog.askstring("Bienvenido", "Hola, ¿Cómo te llamas?")
 if not user_name:
     user_name = "amigo"
 root.deiconify()
@@ -49,7 +49,7 @@ chat_frame = tk.Frame(root, bg='white', bd=2)
 chat_frame.place(x=20, y=20, width=600, height=420)
 chat_log = tk.Text(chat_frame, wrap='word', bg='white', fg='black', font=("Helvetica", 10))
 chat_log.pack(expand=True, fill='both')
-chat_log.insert(tk.END, f"Recolectora: ¡Hola {user_name.capitalize()}! Soy Aracelly 😊. Pregúntame sobre variedades, precios, calidad, bonos de carbono, año de cosecha, productor, propiedades o lugar.")
+chat_log.insert(tk.END, f"Recolectora: ¡Hola {user_name.capitalize()}! Soy Aracelly . Pregúntame sobre nuestras variedades de café, precios, calidad, bonos de carbono, año de cosecha.\n")
 
 def agregar_mensaje(autor, mensaje):
     chat_log.insert(tk.END, f"\n{autor}: {mensaje}\n")
@@ -62,7 +62,7 @@ def responder():
     question = user_input.get().lower()
     chat_log.insert(tk.END, f"\n{user_name.capitalize()}: {question}\n")
 
-    respuesta = "Lo siento, no entendí tu pregunta. ¿Quieres saber sobre variedades, precios, calidad, año de cosecha, productor, propiedades o lugar?"
+    response = "Lo siento, no entendí tu pregunta. ¿Quieres saber sobre variedades, precios, calidad, año de cosecha o productores?"
 
     variedad_keys = ["variedad", "tipo", "clase"]
     precio_keys = ["precio", "cuánto", "cuesta", "vale", "valor", "tarifa"]
