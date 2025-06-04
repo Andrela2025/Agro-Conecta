@@ -475,7 +475,7 @@ def realizar_compra():
             return
     precio_usd = precios.mean()
 
-    tasa_cambio = 4000
+    tasa_cambio = 4132
     if unidad == "Kilos":
         cantidad_lb = cantidad * 2.20462
     else:
