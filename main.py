@@ -81,9 +81,9 @@ train_phrases = [
     ("¿Cuál es la calidad promedio del café?", "calidad"),
     ("Dime el puntaje de calidad general", "calidad"),
     ("¿Cómo califican sus cafés?", "calidad"),
-    ("¿Cuál es el ranking de calidad?", "calidad"),
+    ("¿Cuál es el puntaje de calidad?", "calidad"),
     ("¿Qué score tienen sus cafés?", "calidad"),
-    ("¿Cuál es el café con mejor ranking?", "calidad_max"),
+    ("¿Cuál es el café con mejor taza?", "calidad_max"),
     ("Dime la variedad de café con mejor puntaje", "calidad_max"),
     ("¿Qué café tiene la puntuación más alta?", "calidad_max"),
     ("¿Cuál es el café mejor calificado?", "calidad_max"),
@@ -218,15 +218,15 @@ def obtener_info_calidad() -> str:
 
 def obtener_info_calidad_max() -> str:
     """
-    Retorna la variedad de café con el ranking más alto.
+    Retorna la variedad de café con el puntaje en taza más alto.
     """
     df_sin_na = df.dropna(subset=['ranking', 'coffee_variety'])
     if df_sin_na.empty:
-        return "Lo siento, no cuento con datos de ranking para determinar el mejor café."
+        return "Lo siento, no cuento con datos del puntaje en taza para determinar el mejor café."
     fila_max = df_sin_na.loc[df_sin_na['ranking'].idxmax()]
     variedad_top = fila_max['coffee_variety']
     ranking_top = round(fila_max['ranking'], 2)
-    return f"La variedad con mejor ranking es {variedad_top}, con un puntaje de {ranking_top} sobre 100."
+    return f"La variedad con mejor puntaje en taza es {variedad_top}, con un puntaje de {ranking_top} sobre 100."
 
 
 def obtener_info_años() -> str:
@@ -523,7 +523,7 @@ crear_boton_sugerencia("🌱 Variedades", "¿Qué variedades de café tienen?", 
 crear_boton_sugerencia("💰 Precios", "¿Cuál es el precio del café Geisha?", "#fff9c4", 1)
 crear_boton_sugerencia("💎 Café más caro", "¿Cuál es el café más costoso?", "#ffe0b2", 2)
 crear_boton_sugerencia("💵 Café más económico", "¿Cuál es la variedad más económica?", "#d7ccc8", 3)
-crear_boton_sugerencia("📈 Mejor ranking", "¿Cuál es el café con mejor ranking?", "#c8e6c9", 4)
+crear_boton_sugerencia("📈 Calidad ", "¿Cuál es el café con la mejor tasa?", "#c8e6c9", 4)
 crear_boton_sugerencia("🌍 Bonos top", "¿Cuál productor genera mayor bonos de carbono?", "#d1c4e9", 5)
 crear_boton_sugerencia("📅 Años cosecha", "¿De qué año es el café?", "#f8bbd0", 6)
 crear_boton_sugerencia("🌿 Propiedades", "¿Cuáles son las propiedades del café Typica?", "#dcedc8", 7)
