@@ -314,7 +314,7 @@ def generar_respuesta(question: str, user_name: str) -> str:
         return obtener_info_bonos()
 
     elif intent == "bonos_max":
-        return obtener_info_bonos_max()
+        return obtener_info_bonos()
 
     elif intent == "saludo":
         return f"¡Hola {user_name.capitalize()}! ¿Cómo estás? 😊 ¿Sobre qué café quieres saber hoy?"
@@ -520,13 +520,13 @@ def crear_boton_sugerencia(texto: str, pregunta: str, color: str, col: int):
 
 
 crear_boton_sugerencia("🌱 Variedades", "¿Qué variedades de café tienen?", "#e0f7fa", 0)
-crear_boton_sugerencia("💰 Precios", "¿Cuál es el precio del café Geisha?", "#fff9c4", 1)
+crear_boton_sugerencia("💰 Precios", "¿Cuáles son los precios del café?", "#fff9c4", 1)
 crear_boton_sugerencia("💎 Café más caro", "¿Cuál es el café más costoso?", "#ffe0b2", 2)
 crear_boton_sugerencia("💵 Café más económico", "¿Cuál es la variedad más económica?", "#d7ccc8", 3)
 crear_boton_sugerencia("📈 Calidad ", "¿Cuál es el café con la mejor tasa?", "#c8e6c9", 4)
-crear_boton_sugerencia("🌍 Bonos top", "¿Cuál productor genera mayor bonos de carbono?", "#d1c4e9", 5)
+crear_boton_sugerencia("🌍 Bonos top", "¿Muéstrame los bonos de carbono de cada productor?", "#d1c4e9", 5)
 crear_boton_sugerencia("📅 Años cosecha", "¿De qué año es el café?", "#f8bbd0", 6)
-crear_boton_sugerencia("🌿 Propiedades", "¿Cuáles son las propiedades del café Typica?", "#dcedc8", 7)
+crear_boton_sugerencia("🌿 Propiedades", "¿Cuáles son las propiedades de los cafés?", "#dcedc8", 7)
 
 # ============================
 # 9. Ejecutar la interfaz
